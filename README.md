@@ -32,16 +32,9 @@ Ademas Considerando el punto de que no son necesarias todas las imagenes del mod
 Cupones es mas inestable, por lo que una configuración de TIMEOUT o de prueba de la conexión (ping) por integración podria ser una metodologia Optima para la resolución de este punto, en funcion de obtener el problema en la capa presente. Por otra parte una opción es utilizar la configuración de Mock que permite realizar solicitudes de manera segura al enlace de integración.
 
 ## Para Reproducir el proyecto
-Puede abrir el proyecto a través de Spring Boot ejecutando el "ServicioApiApplicationTests" y luego ya puede dirigirse a los siguientes enlaces a traves de algun Cliente de solicitudes API (puede ser Advanced Rest Client o el que prefiera que contenga método GET)
+Puede abrir el proyecto a través de Spring Boot ejecutando el "ServicioApiApplicationTests"(Esto se debe configurar luego de armar el proyecto con Gradle para poder ejecutar) y luego ya puede dirigirse a los siguientes enlaces a traves de algun Cliente de solicitudes API (puede ser Advanced Rest Client o el que prefiera que contenga método GET)
 Debe configurar la solicitud con un el Content-Type: application/json, y finalmente puede ejecutar uno de los siguientes enlaces:
 ### ENDPOINT
 - **Top 5** categorias: http://localhost:8080/top5
 - Categorias **restantes**: http://localhost:8080/lastlist
 - Cupones que no han expirado: http://localhost:8080/nonexpired
-
-## Forma de Entrega
-Siga los siguientes pasos para implementar y enviar este desafío:
-- Haga un **Fork** a este repositorio. Puedes mirar esta guía para mayores informaciones: [Como hacer fork de un repositorio](https://help.github.com/en/articles/fork-a-repo).
-- Implemente el desafío.
-- Después de completar el desafío, realice un **Pull Request** a este repositorio, utilizando la interface de **Github**. [Creando un Pull Request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
-- Si es posible, deja tu repositorio publico para hacer la revisión de código más sencilla.
